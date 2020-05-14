@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">QuizBee</string>
-    <string name="your_score">Your Score</string>
+    <string name="app_name">Virus Infection Predictor</string>
+    <string name="your_score">Your possible infection rate based on Machine Learning</string>
+    <string name="alfadas">Alfadas Apps</string>
+    <string name="alfadasapps">alfadas.trash@gmail.com</string>
+    <string name="VirusPredictorApp">Virus Infection Predictor</string>
 </resources>

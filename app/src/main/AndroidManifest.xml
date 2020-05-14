@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vikasojha.quizbee">
+    package="com.alfadasApps.Virus_Infection_Predictor">
 
     <application
         android:allowBackup="true"
@@ -8,28 +8,40 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.alfadasApps.Virus_Infection_Predictor.MainActivity">
+            <meta-data
+                android:name="com.google.firebase:firebase-ml-vision.DEPENDENCIES"
+                android:value="face"
+                >
+            </meta-data>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".QuestionsActivity">
+        <activity android:name="com.alfadasApps.Virus_Infection_Predictor.QuestionsActivity">
             <intent-filter>
                 <action android:name="com.example.vikasojha.quizbee.QuestionsActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".DeveloperActivity">
+        <activity android:name="com.alfadasApps.Virus_Infection_Predictor.photoActivity">
+            <intent-filter>
+                <action android:name="com.alfadasApps.Virus_Infection_Predictor.photoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.alfadasApps.Virus_Infection_Predictor.DeveloperActivity">
             <intent-filter>
                 <action android:name="com.example.vikasojha.quizbee.DeveloperActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResultActivity"></activity>
+        <activity android:name="com.alfadasApps.Virus_Infection_Predictor.ResultActivity"></activity>
     </application>
 
 </manifest>

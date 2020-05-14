@@ -7,67 +7,59 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.vikasojha.quizbee.ResultActivity">
+    tools:context="com.alfadasApps.Virus_Infection_Predictor.ResultActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="28dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
         android:id="@+id/tvres"
-        android:layout_alignParentTop="true"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
-        android:background="#F44336"
-        android:textColor="#000000"
-        android:textAlignment="center"
-        android:textSize="19dp" />
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border_green"
+        android:gravity="center"
+        android:text="Large Text"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Restart"
         android:id="@+id/btnRestart"
+        android:textSize="20dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="119dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:background="#01579B"
+        android:background="@drawable/border_blue"
         android:textColor="#ffffff" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="28dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
         android:id="@+id/tvres2"
-        android:background="#76FF03"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
         android:layout_below="@+id/tvres"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:background="@drawable/border_yellow"
+        android:gravity="center"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#000000"
-        android:textAlignment="center"
-        android:textSize="19dp" />
+        android:textSize="24dp" />
+
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="28dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+
         android:id="@+id/tvres3"
-        android:background="#FFEB3B"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
         android:layout_below="@+id/tvres2"
-        android:layout_marginTop="33dp"
-        android:layout_alignRight="@+id/tvres2"
-        android:layout_alignEnd="@+id/tvres2"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:outlineProvider="background"
+        android:gravity="center"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#000000"
-        android:textAlignment="center"
-        android:textSize="19dp" />
+        android:background="@drawable/border_red"
+        android:textSize="28dp" />
 </RelativeLayout>
