@@ -5,9 +5,11 @@ The Quizbee App of Vikas Ojha was used as an Layout! Thank you for your nice wor
 
 ## Sreenshots
 
-![](screenshot/Screenshot_20200423-122745.png)
-![](screenshot/Screenshot_20200423-122755.png)
-![](screenshot/Screenshot_20200423-122805.png)
-![](screenshot/Screenshot_20200423-122830.png)
+<p id="img_cont">
+	<img src="/screenshot/Screenshot_20200423-122745.jpg" width = "180" height= "350" hspace=40>
+	<img src="/screenshot/Screenshot_20200423-122805.jpg" width = "180" height= "350" hspace=40>
+  <img src="/screenshot/Screenshot_20200423-122830.jpg" width = "180" height= "350" hspace=40>
+</p>
+
 
 You are welcome to suggest any changes, just send a pull request.
