@@ -1,7 +1,7 @@
 # Readme
 An app that predicts your possible change of a virus infection by asking 10 questions and predicting these answers by using machine learning. Also taking a picture of you face in the process for improved accuracy. Idea for an app due to the CoViD-19 pandemic.
 
-The Quizbee App of Vikas Ojha is used as an Layout! Thank you for your nice work!
+The Quizbee App of Vikas Ojha was used as an Layout! Thank you for your nice work!
 
 ## Sreenshots
 
